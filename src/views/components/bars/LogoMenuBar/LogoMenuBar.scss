@@ -1,0 +1,64 @@
+.logomenu {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+
+    .logo {
+
+        img {
+            height: 45px;
+        }
+    }
+
+    .icon_emont {
+        margin-top: 3px;
+        width: 40px;
+    }
+
+    .dropdown {
+        margin-left: 20px;
+
+        .dropdown-menu {
+            height: 0;
+            overflow: hidden;
+            // position: absolute;
+            // right: 0;
+            // top: 45px;
+            margin: 0;
+            list-style: none;
+            width: auto;
+            background: #000000d8;
+            color: black;
+            border-radius: 10px;
+            transition: height 0.5s;
+            border: none;
+            padding: 0;
+
+            &.show {
+                // border: 1px solid #727272;
+                height: 195px;
+                padding: 10px 0;
+            }
+
+            .dropdown-item {
+                font-size: 20px;
+                padding: 8px 15px;
+                cursor: pointer;
+                font-weight: 300;
+                font-family: system-ui;
+                color: white;
+
+                &:hover {
+                    color: black;
+                    background: #d8d8d8;
+                }
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid #727272;
+                }
+            }
+        }
+    }
+}

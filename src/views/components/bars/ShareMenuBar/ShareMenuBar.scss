@@ -1,0 +1,101 @@
+.sharemenu {
+    position: absolute;
+    top: 5%;
+    right: 20px;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    height: auto;
+    width: auto;
+    z-index: 1;
+    background: #ffffffbf;
+
+    &>div {
+        display: flex;
+        position: relative;
+
+        a {
+            padding: 15px 5px;
+            cursor: pointer;
+
+            img {
+                height: 20px;
+            }
+            &:hover {
+                background: #62a54c;
+            }
+        }
+
+        ul {
+            position: absolute;
+            width: 0;
+            overflow: hidden;
+            transition: all 0.5s;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 40px;
+            right: 40px;
+            padding: 0;
+            top: -13px;
+
+            &.show {
+                // border: 1px solid grey;
+                width: 312px;
+            }
+
+            li {
+                padding: 5px 5px 1px;
+                cursor: pointer;
+
+                img {
+                    height: 40px;
+                }
+
+                &:hover {
+                    img {
+                        border: 3px solid #df00ff;
+                        border-radius: 50%;
+                    }
+                }
+
+                &:first-child {
+                    padding-left: 10px;
+                }
+
+                &:last-child {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
+    .share-menu {
+        .share-icon {
+            border-bottom: 1px solid #000000;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+
+        .share-sub-menu {
+
+            .icon {}
+        }
+    }
+
+    .language-menu {
+
+        .language-icon {
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+
+        }
+
+        .language-sub-menu {
+
+            &.show {}
+
+            .icon {}
+        }
+    }
+}

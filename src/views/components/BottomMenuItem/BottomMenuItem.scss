@@ -1,0 +1,35 @@
+.bottommenu-icon {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 5%;
+    cursor: pointer;
+
+    &:hover {
+        .bottom-icon {
+            background: linear-gradient(to bottom right, #ffffff 0%, #bbb9b9 40%, #ffffff 100%);
+        }
+    }
+
+    .bottom-icon {
+        transition: all 0.5s;
+        background: linear-gradient(to bottom right, #dbe1e2 0%, #969090 50%, #f1e5e5 100%);
+        border: 3px outset;
+        padding: 14px;
+        border-radius: 30px;
+
+        img {
+            height: 60px;
+        }
+    }
+
+    .bottom-text {
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 5px;
+        font-family: cursive;
+    }
+}
