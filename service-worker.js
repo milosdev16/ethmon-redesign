@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ethmon-redesign/precache-manifest.2b5705f451cd31d01265974db0765a45.js"
+  "/ethmon-redesign/precache-manifest.132410f29b9bc0180cc2bb5f9479f562.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8dafe92076c9009ccabcf8c566b91757",
+    "revision": "181a6a89352a6ec2551454eb23fdd497",
     "url": "/ethmon-redesign/index.html"
   },
   {
